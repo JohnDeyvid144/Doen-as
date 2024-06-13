@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+
+}
+body {
+
+    margin: 0px;
+}
+.cabecalho{
+
+    color: aliceblue;
+    background-color: rgba(13, 144, 79, 1);;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+.banner {
+
+    background-image: url(imagens/mosquitao.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    
+}
+
+hr{
+
+    width: 80%;
+    border: 1.5px solid rgba(13, 144, 79, 1);;
+}
+
+.intro{
+
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.intro .itens{
+    
+    display: flex;
+    align-items: center;
+   
+}
+
+.logo img{
+
+    border-radius: 50%;
+    width: 50px;    
+}
+
+.intro .botoes{
+    border: red;
+    font-size: large;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.intro .botoes button{
+    background-color: transparent;
+    margin: 10px;
+}
+
+.busca img{
+    background-color: blue;
+    border-radius: 50%;
+    width: 55px;   
+}
+
+.text{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    font-size:80px;
+    margin: 0px;
+    padding: 110px;
+
+}
+.text > p{
+    margin: 0px;
+}
+
+.text > hr{
+    color: rgba(13, 144, 79, 1);
+    border: 4px solid;
+    margin: auto;
+    width: 70%;
+    
+}
+
+.sumario{
+    text-align: center;
+    font-size: 40px;
+}
+
+.link_sumario ul li {
+    margin-left: 15vh;
+    list-style: decimal ;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.link_sumario a{
+    color: black;
+    font-size: 20px;
+}
+
+main .aviso {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.topicos{
+    padding: 50px 170px;
+}
+
+.covid .parte1 .ness{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.titulos_doencas{
+    font-size: 40px;
+    padding: 25px 170px;
+    font-weight: 600;
+}
+
+strong{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.info_covid1 p{
+    font-size: 20px;
+}
+
+.covid .parte1 .titulo1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 170px;
+}
+
+.covid .parte1 .ness .texto1{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    position: relative;
+    gap: 15px;
+    letter-spacing: 2px;
+    
+}
+
+.imagem_texto{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 50px 100px;
+    
+    
+}
+
+.imagem_texto .imagensp1{
+    margin-left: 100px;
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.imagem_texto .textop1 .textop2{
+    margin-right: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+}
+
+.texto2{
+    margin-right: 100px;
+    margin-left: 170px;
+
+}
+
+.titulop1{
+    font-size: 30px;
+}
+
+.info_covid1{
+    padding: 50px 170px;
+}
+
+.info_covid2{
+    padding: 50px 170px;
+}
+
+.info_covid2 b{
+    font-size: 19px;
+}
+
+.info_covid2 p{
+    font-size: 20px;
+}
+
+.calazar b{
+    font-size: 19px;
+}
+
+
+.Dengue_Zika_Chikungunha b{
+    font-size: 19px;
+}
+
